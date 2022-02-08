@@ -1,0 +1,58 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    
+}
+
+body {
+    background-image: url(AG3I3702_rdax_1200x800_90.jpeg);
+    z-index: 0;
+    object-fit: cover;
+}
+.container{
+    z-index: 1;
+    color: rgb(1, 37, 78);
+    font-size: 40px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(AG3I3702_rdax_1200x800_90.jpeg);
+    background-position: 50%;
+    object-fit: cover;
+
+}
+
+.flagcontainer1{
+    z-index: 2;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    max-height: auto;
+}
+
+.flagcontainer2{
+    z-index: 2;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    max-height: auto;
+
+}
+
+.flagcontainer3{
+    z-index: 2;
+    background-color: rgb(40, 138, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    max-height: auto;
+}
